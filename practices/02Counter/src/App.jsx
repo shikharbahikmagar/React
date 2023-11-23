@@ -26,6 +26,11 @@ let [counter, SetCounter] = useState(0);
       {
       counter = counter - 1
       SetCounter(counter)
+
+      //below code decrease by 3
+      // SetCounter(prevCounter => prevCounter - 1)
+      // SetCounter(prevCounter => prevCounter - 1)
+      // SetCounter(prevCounter => prevCounter - 1)
       
       }else
       {
