@@ -33,8 +33,11 @@ function App() {
       }}
     >
        
-      <div className="w-full">
-        <div className="w-full max-w-lg mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/25">
+      <div className="w-full flex">
+        <div className="w-full max-w-lg mx-auto float-left mr-1 border border-gray-60 rounded-lg p-5">
+          <img className='object-cover'  src="https://images.pexels.com/photos/11418397/pexels-photo-11418397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        </div>
+        <div className="w-full max-w-lg mx-auto float-right ml-1 border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/25">
           <form
             onSubmit={(e) => {
               e.preventDefault();
